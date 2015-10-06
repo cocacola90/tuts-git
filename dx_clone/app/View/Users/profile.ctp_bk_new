@@ -1,0 +1,65 @@
+<div class="row">
+<?php echo $this->element('nav_profile');?>
+<div class="col-lg-9 col-md-9 col-sm-8">
+	<div class=" col-md-9 userpro">
+		<img alt="no-avata" width="80px" height="70px" src="/uploads/_thumbs/Images/big_121917_sony-xperia-e4-e2115-black-13.jpg">
+		<div class="infouser">
+			<h3><p>Hello!</p>  <span><?php echo $user_info['firstname'] . ' ' . $user_info['lastname'];?> </span></h3>
+			<ul class="ulistacc">
+				<li><a href="">Email: <span><?php echo $user_info['email'];?></span></a></li>
+				<!--<li><a href="">Test : <span>test tests</span></a></li>-->
+			</ul>
+		</div>
+	</div>
+	<div class="all_info">
+		<div class="tit_order">
+			<span class="textinfo">Profile</span> <span class="viewallor"><a href="">Tất cả</a></span>
+		</div>
+		<div class="row">
+			<div class="col-md-3 col-lg-3 " align="center">
+				<img alt="User Pic" src="https://lh5.googleusercontent.com/-b0-k99FZlyE/AAAAAAAAAAI/AAAAAAAAAAA/eu7opA4byxI/photo.jpg?sz=100" class="img-circle">
+			</div>
+			<div class=" col-md-9 col-lg-9 ">
+			  <table class="table table-user-information">
+				<tbody>
+				  <tr>
+					<td>Fullname:</td>
+					<td><?php echo $user_info['firstname'] . ' ' . $user_info['lastname'];?></td>
+				  </tr>
+				  <tr>
+					<td>Hire date:</td>
+					<td><?php echo date('m/d/Y',$user_info['created']);?></td>
+				  </tr>
+				  <tr>
+					<td>Date of Birth</td>
+					<td><?php echo date('m/d/Y',$user_info['birthdate']); ?></td>
+				  </tr>
+
+					 <tr>
+						 <tr>
+					<td>Gender</td>
+					<td><?php if($user_info['sex']==1) echo 'female'; else echo 'Male'; ?></td>
+				  </tr>
+					<tr>
+					<td>Home Address</td>
+					<td><?php echo $user_info['address']; ?></td>
+				  </tr>
+				  <tr>
+					<td>Email</td>
+					<td><a href="mailto:info@support.com"><?php echo $user_info['email']; ?></a></td>
+				  </tr>
+					<td>Phone Number</td>
+					<td><?php echo $user_info['phonenumber']; ?>
+					</td>
+
+				  </tr>
+
+				</tbody>
+			  </table>
+			</div>
+	</div>
+</div>
+</div>
+</div>
+
+

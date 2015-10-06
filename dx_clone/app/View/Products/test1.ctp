@@ -1,0 +1,1 @@
+<p style="font-size: 30px; color: red">vsdsd<span class="icon icon-cart"></span></p>

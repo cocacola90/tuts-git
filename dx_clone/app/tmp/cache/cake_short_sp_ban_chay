@@ -1,0 +1,268 @@
+1444044813
+a:1:{i:0;a:4:{s:13:"OrdersProduct";a:8:{s:2:"id";s:1:"1";s:8:"order_id";s:1:"1";s:7:"storage";s:0:"";s:5:"color";s:0:"";s:5:"price";s:4:"3.99";s:6:"detail";s:63:"{"color":"Red","storage":"","ship_type":"1","ship_cost":"8.12"}";s:10:"product_id";s:2:"18";s:8:"quantity";s:1:"1";}i:0;a:1:{s:5:"count";s:2:"22";}s:7:"Product";a:30:{s:2:"id";s:2:"18";s:11:"category_id";s:1:"4";s:3:"sku";s:5:"12351";s:4:"name";s:100:"Lenovo K3 Note Android 5.0 MTK6752 Octa Core 4G Phone w/ 5.5"FHD, 2GB RAM,16GB ROM,13.0+5.0MP-Yellow";s:4:"slug";s:98:"lenovo-k3-note-android-5-0-mtk6752-octa-core-4g-phone-w-5-5-fhd-2gb-ram-16gb-rom-13-0-5-0mp-yellow";s:5:"price";s:4:"3.99";s:8:"discount";s:1:"0";s:15:"discount_status";s:1:"0";s:6:"status";s:1:"1";s:9:"thumbnail";s:38:"/uploads/images/sku_381335_1_small.jpg";s:10:"image_more";s:171:"["\/uploads\/images\/sku_381335_3.jpg","\/uploads\/images\/sku_381335_5_small.jpg","\/uploads\/images\/sku_381335_7_small.jpg","\/uploads\/images\/sku_381335_1_small.jpg"]";s:14:"sale_artifacts";s:179:"<p><span style="font-family:verdana,tahoma,arial; font-size:11px">Lenovo K3 Note Android 5.0,4G phones, eight-core, 5.5 inches, 2GB RAM, 16GB ROM,13.0MP+5.0MP- yellow</span></p>
+";s:7:"content";s:9184:"<table class="t_info" style="border-collapse:collapse; border-spacing:0px; font-family:verdana,tahoma,arial; font-size:11px; line-height:normal; width:897px">
+	<tbody>
+		<tr>
+			<th colspan="2" style="height:30px">General</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Brand</td>
+			<td style="height:30px">Lenovo</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Model</td>
+			<td style="height:30px">K50-t5</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Quantity</td>
+			<td style="height:30px">1Piece</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Material</td>
+			<td style="height:30px">Plastic</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Color</td>
+			<td style="height:30px">Yellow</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Type</td>
+			<td style="height:30px">Brand New</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Power Adapter</td>
+			<td style="height:30px">US Plug</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Housing Case Material</td>
+			<td style="height:30px">Plastic</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Released Time</td>
+			<td style="height:30px">2015</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Network</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Cellular</td>
+			<td style="height:30px">TD-SCDMA&nbsp;,&nbsp;GSM&nbsp;,&nbsp;TD-LTE</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Network Type</td>
+			<td style="height:30px">2G&nbsp;,&nbsp;3G&nbsp;,&nbsp;4G</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Band Details</td>
+			<td style="height:30px">2570-2620/1880-1920/2300-2400MHzTD-LTE 2010-2025/1880-1920MHzTD-SCDMA 900/1800/1900MHzGSM</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Data Transfer</td>
+			<td style="height:30px">GPRS&nbsp;,&nbsp;HSPA&nbsp;,&nbsp;EDGE&nbsp;,&nbsp;LTE</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Network Conversation</td>
+			<td style="height:30px">One-Party Conversation Only</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">WLAN</td>
+			<td style="height:30px">Wi-Fi 802.11 b,g,n</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">SIM Card Type</td>
+			<td style="height:30px">Micro SIM</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">SIM Card Quantity</td>
+			<td style="height:30px">2</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Network Standby</td>
+			<td style="height:30px">Dual Network Standby</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">GPS</td>
+			<td style="height:30px">Yes</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">NFC</td>
+			<td style="height:30px">No</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Infrared Port</td>
+			<td style="height:30px">No</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Bluetooth Version</td>
+			<td style="height:30px">V4.0</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">System</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">OS</td>
+			<td style="height:30px">Android</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Firmware Version</td>
+			<td style="height:30px">Android 5.0</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">CPU Processor</td>
+			<td style="height:30px">MT6752 64-bit processor</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">CPU Core Quantity</td>
+			<td style="height:30px">Octa-Core</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Language</td>
+			<td style="height:30px">English, Afrikaans, Bahasa Indonesia, Malay, Bosnian, Catalonia, Romania</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">GPU</td>
+			<td style="height:30px">Mali-T760 graphics processor, clocked at 700MHz</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Storage</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">RAM</td>
+			<td style="height:30px">2GB</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Internal Storage</td>
+			<td style="height:30px">16GB</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Available Memory</td>
+			<td style="height:30px">16GB</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Memory Card</td>
+			<td style="height:30px">MicroSD(TF)</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Max. Expansion Supported</td>
+			<td style="height:30px">32GB</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Display</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Size Range</td>
+			<td style="height:30px">5.5 Inches &amp; Over</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Touch Screen</td>
+			<td style="height:30px">IPS</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Screen Resolution</td>
+			<td style="height:30px">1920 x 1080(FHD,1080P)</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Multitouch</td>
+			<td style="height:30px">10</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Screen Size ( inches)</td>
+			<td style="height:30px">5.5</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Camera</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Camera Pixel</td>
+			<td style="height:30px">13.0MP</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Front Camera Pixels</td>
+			<td style="height:30px">5.0MP</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Flash</td>
+			<td style="height:30px">Yes</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Auto Focus</td>
+			<td style="height:30px">Yes</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Touch Focus</td>
+			<td style="height:30px">Yes</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Power</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Talk Time</td>
+			<td style="height:30px">36Hour</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Standby Time</td>
+			<td style="height:30px">750Hour</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Battery Capacity</td>
+			<td style="height:30px">3000mAh</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Battery Type</td>
+			<td style="height:30px">Replacement</td>
+		</tr>
+		<tr>
+			<th colspan="2" style="height:30px">Other Features</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Sensor</td>
+			<td style="height:30px">Gyroscope, Light sensor&nbsp;,&nbsp;G-sensor&nbsp;,&nbsp;Proximity&nbsp;,&nbsp;Compass</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Waterproof Level</td>
+			<td style="height:30px">IPX0 (Not Protected)</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Shock-proof</td>
+			<td style="height:30px">No</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">I/O Interface</td>
+			<td style="height:30px">Micro USB&nbsp;,&nbsp;3.5mm</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">JAVA</td>
+			<td style="height:30px">No</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">TV Tuner</td>
+			<td style="height:30px">No</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Radio Tuner</td>
+			<td style="height:30px">FM</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Wireless Charging</td>
+			<td style="height:30px">No</td>
+		</tr>
+	</tbody>
+</table>
+
+<table class="mar_t10 t_info" style="border-collapse:collapse; border-spacing:0px; font-family:verdana,tahoma,arial; font-size:11px; line-height:normal; margin-top:10px; width:897px">
+	<tbody>
+		<tr>
+			<th colspan="2" style="height:30px">Dimensions &amp; Weight</th>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Dimensions</td>
+			<td style="height:30px">6.01 in x 3.02 in x 0.31 in (15.26 cm x 7.67 cm x 0.79 cm)</td>
+		</tr>
+		<tr>
+			<td style="height:30px; text-align:right; width:100px">Weight</td>
+			<td style="height:30px">5.15 oz (146 g)</td>
+		</tr>
+	</tbody>
+</table>
+";s:11:"description";s:179:"<p><span style="font-family:verdana,tahoma,arial; font-size:11px">Lenovo K3 Note Android 5.0,4G phones, eight-core, 5.5 inches, 2GB RAM, 16GB ROM,13.0MP+5.0MP- yellow</span></p>
+";s:6:"weight";s:3:"146";s:16:"meta_description";s:6:"lenovo";s:12:"meta_keyword";s:6:"lenovo";s:10:"view_count";s:2:"80";s:10:"number_buy";s:1:"0";s:9:"inventory";N;s:7:"publish";s:1:"1";s:9:"prominent";s:1:"1";s:7:"created";s:10:"1429865445";s:8:"modified";s:10:"1435339015";s:10:"total_mark";s:3:"4.3";s:11:"number_mark";s:1:"1";s:8:"avg_mark";s:3:"4.3";s:9:"pro_combo";s:1:"1";s:9:"cat_combo";s:1:"0";s:7:"related";N;}s:8:"Category";a:2:{s:4:"slug";s:13:"mobile-phones";s:4:"name";s:13:"Mobile phones";}}}

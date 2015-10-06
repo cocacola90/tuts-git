@@ -1,0 +1,96 @@
+/**
+ * @author              Steven Palmer
+ * @author url          http://coalaweb.com
+ * @author email        support@coalaweb.com
+ * @copyright           Copyright (c) 2013 Steven Palmer All rights reserved.
+ */
+
+.cw_guestInfo{
+    text-align: center;
+    display:block;
+    font-size: 12px;
+}
+
+.cw_copyrht{
+    text-align: center;
+    display:block;
+    font-size: 12px;
+    margin:5px 0px;
+}
+
+.cw_traffic {
+    margin:10px 0px 5px;
+}
+
+.cw_traffic h3{
+    border:none !important;
+}
+
+.cw_traffic a{
+    text-decoration: none;
+}
+
+/* Stats left */
+.cw_stats_lt0, .cw_stats_ly0, .cw_stats_lw0, .cw_stats_lm0, .cw_stats_la0,
+.cw_stats_lt1, .cw_stats_ly1, .cw_stats_lw1, .cw_stats_lm1, .cw_stats_la1,
+.cw_stats_lt2, .cw_stats_ly2, .cw_stats_lw2, .cw_stats_lm2, .cw_stats_la2,
+.cw_stats_lt3, .cw_stats_ly3, .cw_stats_lw3, .cw_stats_lm3, .cw_stats_la3,
+.cw_stats_lt4, .cw_stats_ly4, .cw_stats_lw4, .cw_stats_lm4, .cw_stats_la4,
+.cw_stats_lt5, .cw_stats_ly5, .cw_stats_lw5, .cw_stats_lm5, .cw_stats_la5
+{float:left;}
+
+.cw_stats_lt0, .cw_stats_ly0, .cw_stats_lw0, .cw_stats_lm0, .cw_stats_la0 {padding-left:25px;}
+.cw_stats_lt1, .cw_stats_ly1, .cw_stats_lw1, .cw_stats_lm1, .cw_stats_la1 {padding-left:30px;}
+.cw_stats_lt2, .cw_stats_ly2, .cw_stats_lw2, .cw_stats_lm2, .cw_stats_la2 {padding-left:40px;}
+.cw_stats_lt3, .cw_stats_ly3, .cw_stats_lw3, .cw_stats_lm3, .cw_stats_la3 {padding-left:50px;}
+.cw_stats_lt4, .cw_stats_ly4, .cw_stats_lw4, .cw_stats_lm4, .cw_stats_la4 {padding-left:60px;}
+.cw_stats_lt5, .cw_stats_ly5, .cw_stats_lw5, .cw_stats_lm5, .cw_stats_la5 {padding-left:70px;}
+
+/* Stats right*/
+.cw_stats_r0, .cw_stats_r1, .cw_stats_r2,
+.cw_stats_r3, .cw_stats_r4, .cw_stats_r5
+{float:right;}
+
+.cw_stats_r0 {padding-right:5px;}
+.cw_stats_r1 {padding-right:10px;}
+.cw_stats_r2 {padding-right:20px;}
+.cw_stats_r3 {padding-right:30px;}
+.cw_stats_r4 {padding-right:40px;}
+.cw_stats_r5 {padding-right:50px;}
+
+.cw-traffic-mod-wio h1, .cw-traffic-mod-wio h2, .cw-traffic-mod-wio h3,
+.cw-traffic-mod-wio h4, .cw-traffic-mod-wio h5, .cw-traffic-mod-wio h6{
+    margin-top: 10px !important;
+    margin-bottom: 5px !important;
+}
+
+
+hr {
+    background: none repeat scroll 0 0 #C8C8C8;
+    border: medium none;
+    display: block;
+    height: 1px;
+    margin: 10px 0;
+}
+
+.cw-traffic-mod-wio-title-ac {text-align:center;}
+.cw-traffic-mod-wio-title-al {text-align:left;}
+.cw-traffic-mod-wio-title-ar {text-align:right;}
+
+
+.cw-traffic-mod-wio ul {
+    list-style: none;
+    padding:  5px 0;
+    margin:0 5px;
+}
+
+.cw-traffic-mod-wio li { 
+    padding-left: 1em; 
+    text-indent: -.7em;
+}
+
+.cw-traffic-mod-wio li:before {
+    content: "■";
+    padding-right: 7px;
+    color: #444444;
+}

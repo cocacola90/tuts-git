@@ -1,0 +1,7 @@
+body {background: url(../img/satinweave.jpg) 0 0 #f8f8f8; border-top: 4px solid #222; color:#333; font-family:Arial,Helvetica,Sans Serif; font-size:78%; margin:0; padding:0; text-align:center;}
+#error { margin:0; padding:0; padding-top:60px; padding-bottom:60px; width:auto; }
+h1 {margin:0 0 20px 0;font-size:200px;text-shadow:5px 5px 0 #eee}
+h2 {font-size:1.5em;font-family: Verdana,Arial,Helvetica,Sans Serif}
+p{font-family: Verdana,Arial,Helvetica,Sans Serif}
+a {text-decoration:none;color:#555}
+a:hover {color:#000;text-decoration: underline;}

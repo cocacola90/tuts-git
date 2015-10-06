@@ -1,0 +1,114 @@
+1444074989
+a:2:{i:0;a:2:{s:4:"Post";a:14:{s:2:"id";s:1:"2";s:11:"category_id";s:2:"11";s:7:"user_id";s:1:"1";s:5:"title";s:51:"Cách lấy thông tin SMTP của Gmail chính xác";s:4:"slug";s:43:"cach-lay-thong-tin-smtp-cua-gmail-chinh-xac";s:10:"view_count";s:2:"27";s:16:"meta_description";s:51:"Cách lấy thông tin SMTP của Gmail chính xác";s:12:"meta_keyword";s:51:"Cách lấy thông tin SMTP của Gmail chính xác";s:11:"description";s:184:"Bạn nên làm hướng dẫn này ở localhost, nếu ở localhost làm được mà lên host lại không được thì nhà cung cấp của bạn đã chặn luôn cổng SMTP.";s:7:"content";s:8829:"<p>Vậy th&igrave; trong b&agrave;i n&agrave;y, m&igrave;nh sẽ hướng dẫn c&aacute;ch thiết lập SMTP từ Gmail chi tiết nhất để bạn c&oacute; thể l&agrave;m theo, dĩ nhi&ecirc;n m&igrave;nh đ&atilde; sử dụng từ rất l&acirc;u m&agrave; kh&ocirc;ng thấy vấn đề g&igrave;, ngo&agrave;i việc bị&nbsp;<strong>giới hạn gửi 2000 email/ng&agrave;y</strong>.</p>
+
+<p>Để thiết lập SMTP ch&iacute;nh x&aacute;c như trong b&agrave;i n&agrave;y, bạn cần bật&nbsp;<a href="http://www.google.com/landing/2step/" rel="external nofollow" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;" target="_blank" title="Google 2step">chức năng mật khẩu hai lớp</a>&nbsp;(2-Step Verification) cho t&agrave;i khoản nếu bạn chưa bật, bằng c&aacute;ch v&agrave;o&nbsp;<a href="https://myaccount.google.com/" rel="external nofollow" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;" target="_blank" title="My Account - Google">https://myaccount.google.com/</a>.</p>
+
+<p>Tại đ&acirc;y, bạn&nbsp;v&agrave;o phần&nbsp;<strong>Signing in to Google</strong>&nbsp;(Đăng nhập v&agrave;o Google).</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/signing-in-to-Google.jpg" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="signing-in-to-Google" class="aligncenter size-full wp-image-24512" src="http://thachpham.com/wp-content/uploads/2015/03/signing-in-to-Google.jpg" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:1302px" /></a></p>
+
+<p>Rồi chọn bật chức năng bảo mật hai lớp.</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/baomat2lop-google.jpg" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="baomat2lop-google" class="aligncenter size-full wp-image-24513" src="http://thachpham.com/wp-content/uploads/2015/03/baomat2lop-google.jpg" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:636px" /></a></p>
+
+<div style="box-sizing: border-box; margin: 0px; padding: 0px; border: 0px; outline: 0px; font-size: 16px; vertical-align: baseline; color: rgb(84, 84, 84); font-family: Arial; line-height: 25.6000003814697px; text-align: center; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">&nbsp;</div>
+
+<p>Sau khi bật xong, bạn v&agrave;o lại phần Signing in to Google như ở tr&ecirc;n v&agrave; chọn Mật khẩu ứng dụng.</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/matkhauungdung-google.jpg" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="matkhauungdung-google" class="aligncenter size-full wp-image-24514" src="http://thachpham.com/wp-content/uploads/2015/03/matkhauungdung-google.jpg" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:658px" /></a></p>
+
+<p>H&atilde;y nhấp thẳng v&agrave;o mục đ&oacute;, sau đ&oacute; k&eacute;o xuống dưới chọn&nbsp;<strong>Select app</strong>&nbsp;l&agrave; Mail v&agrave;&nbsp;<strong>Select device</strong>&nbsp;bạn chọn c&aacute;i g&igrave; cũng được, rồi ấn&nbsp;<strong>Generate</strong>.</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-02.png" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="gmail-smtp-02" class="aligncenter size-full wp-image-23081" src="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-02.png" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:463px" /></a></p>
+
+<p>Sau đ&oacute; n&oacute; sẽ cho bạn một d&atilde;y k&yacute; tự, h&atilde;y b&ocirc;i đen v&agrave; copy to&agrave;n bộ n&oacute;, đ&acirc;y ch&iacute;nh l&agrave; mật khẩu SMTP của bạn.</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-03.png" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="gmail-smtp-03" class="aligncenter size-full wp-image-23082" src="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-03.png" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:637px" /></a></p>
+
+<p>B&acirc;y giờ bạn v&agrave;o website WordPress,&nbsp;<a href="http://thachpham.com/wordpress/wordpress-tutorials/tim-va-cai-plugin.html" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;">c&agrave;i plugin</a>&nbsp;<a href="https://wordpress.org/plugins/wp-smtp/" rel="external nofollow" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;" target="_blank" title="WP SMTP">WP SMTP</a>&nbsp;v&agrave; thiết lập như sau:</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-04.png" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="gmail-smtp-04" class="aligncenter size-full wp-image-23083" src="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-04.png" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:642px" /></a></p>
+
+<p>Trong đ&oacute;, bạn cần lưu &yacute;:</p>
+
+<ul>
+	<li>Chọn phương thức bảo mật l&agrave;&nbsp;<strong>SSL</strong></li>
+	<li>Port l&agrave;&nbsp;<strong>465</strong></li>
+	<li>SMTP Host l&agrave;&nbsp;<strong>smtp.gmail.com</strong></li>
+	<li>Username phải l&agrave; địa chỉ email của bạn thuộc t&agrave;i khoản đ&atilde; lấy App Password</li>
+	<li>Password ch&iacute;nh l&agrave; App Password của bạn vừa lấy ở tr&ecirc;n</li>
+</ul>
+
+<p>Sau đ&oacute; ấn lưu lại.</p>
+
+<p>B&acirc;y giờ bạn c&oacute; thể sử dụng chức năng test ph&iacute;a dưới để gửi một email đến một địa chỉ n&agrave;o đ&oacute;, nếu n&oacute; gửi được th&igrave; th&agrave;nh c&ocirc;ng.</p>
+
+<p><a href="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-05.png" rel="lightbox[gallery-Mixw]" style="box-sizing: border-box; color: rgb(0, 123, 182); text-decoration: none; margin: 0px; padding: 0px; vertical-align: baseline; outline: 0px; background: transparent;"><img alt="gmail-smtp-05" class="aligncenter size-full wp-image-23084" src="http://thachpham.com/wp-content/uploads/2015/03/gmail-smtp-05.png" style="background:transparent; border-style:initial; border-width:0px; box-sizing:border-box; clear:both; display:block; height:auto; margin:0px auto; max-width:100%; outline:0px; padding:0px; vertical-align:baseline; width:599px" /></a></p>
+
+<p>Ch&uacute;c c&aacute;c bạn th&agrave;nh c&ocirc;ng!</p>
+";s:9:"thumbnail";s:31:"/uploads/images/smtp-145x90.jpg";s:7:"created";s:10:"1433759225";s:8:"modified";s:10:"1433759225";s:6:"status";s:1:"1";}s:8:"Category";a:3:{s:2:"id";s:2:"11";s:4:"slug";s:4:"blog";s:4:"name";s:4:"Blog";}}i:1;a:2:{s:4:"Post";a:14:{s:2:"id";s:1:"1";s:11:"category_id";s:2:"11";s:7:"user_id";s:2:"23";s:5:"title";s:25:"Brewing Vietnamese Coffee";s:4:"slug";s:25:"brewing-vietnamese-coffee";s:10:"view_count";s:2:"26";s:16:"meta_description";s:25:"Brewing Vietnamese Coffee";s:12:"meta_keyword";s:25:"Brewing Vietnamese Coffee";s:11:"description";s:25:"Brewing Vietnamese Coffee";s:7:"content";s:9294:"<p style="text-align:justify">For our third cold coffee how to of 2011, we&#39;re going to focus a bit on styles of cold coffee served in the far east, but not from Japan, land of the iced coffee towers. There&#39;s an iced coffee beverage that has been around so long that it has been somewhat modified and dare I say it - bastardized (a bit) - in the United States. That iced coffee method is known as Vietnamese Iced coffee, or as the Vietnamese call it, ca phe sue dah. (phonetic spelling)</p>
+
+<p style="text-align:justify">At its core, Vietnamese iced coffee is a combination of concentrated coffee brew, condensed (very sweet) milk (nb: do not use evaporated milk; always condensed milk), and ice. Super-sweet condensed milk is used for a few reasons, not the least of which is the bitter nature of most authentic Vietnamese coffee brews, which I&#39;ll go into detail on below.</p>
+
+<p style="text-align:justify">I say &quot;bastardized&quot; because of the common misconception these days that Vietnamese iced coffee must be made with coffee and chicory. In many of the how tos and videos online showing you this style of brewing, you&#39;ll note Cafe Du Monde coffee from a famous New Orleans coffee shop and roaster is mentioned as the defacto standard coffee to use. People say this because it is a coffee and chicory mix, and according to these how tos, chicory is a required ingredient.</p>
+
+<p style="text-align:justify">That&#39;s just not true. Vietnamese iced coffee, as done in Vietnam (and other parts of south west Asia) does not use chicory. What they do use is whole, 100% coffee. The problem those in the specialty industry may have with this iced coffee style is the type of coffee used, and the roast levels: most of Vietnam coffee is robusta, and it is roasted very, very dark. This combination of roast style and coffee type, along with the amount of coffee used all lead to a fairly bitter beverage, and hence the need to sweeten things up. Since condensed milk is commonly available in Vietnam, this was a natural choice.</p>
+
+<p style="text-align:justify"><strong>The parts of Vietnamese iced coffee</strong></p>
+
+<p style="text-align:justify">To brew Vietnamese iced coffee as authentically as possible (though with a specialty coffee twist, which I&#39;ll detail below), you need something called a phin. A phin is the name for the little coffee brewer used for this brewing style. Fortunately, these phins, in various sizes, are almost always available at any town&#39;s dollar store for only a few bucks. I&#39;ve seen them as low as $2, and as high as $7. This makes it a very inexpensive brewing device.</p>
+
+<p style="text-align:justify">You&#39;ll also need condensed milk (Eagle Brand is one of the more common ones in the US), fresh ground coffee, hot water, and ice. Let&#39;s get into more detail, but with an eye towards specialty coffee.</p>
+
+<p style="text-align:justify"><strong>The Phin:</strong>&nbsp;Typically, these are found in 4oz (120ml) to 10oz (300ml) brewing sizes. The one pictured in our how-to is a 4oz (120ml) brewing phin. As well as coming in a variety of sizes, the construction can vary a bit too, but the core parts are usually all the same: main brewing chamber with a filter built in the bottom, press down spreader for putting on top of the coffee, and a lid which doubles as a drip catcher stand for the brewer when done.</p>
+
+<p style="text-align:justify">Some phins have a gravity-held top spreader, which sits right on the top of your bed of coffee. Others have a screw down spreader that gives you more control and perhaps even a better brew. The idea with the screw down spreader is you screw it down on top of the bed of coffee, keep tightening until you feel the coffee&#39;s resistance, then unscrew it about a full turn to create some headspace between the coffee and top spreader. This allows the coffee to expand when you first pour hot water onto it.</p>
+
+<p style="text-align:justify"><strong>The Coffee:</strong>&nbsp;In Vietnam, robusta coffee is the primary coffee available. It doesn&#39;t taste very good. One way to make robusta more palatable (and remove the burnt rubber flavours) is to roast it very dark. Another is to roast it dark but also mix in some arabica. But this is CoffeeGeek and we don&#39;t deal with dark roasts or robusta very much. We&#39;ll be using a quality single origin (in the case of this demonstration, we&#39;re using the Ethiopian Ardi from Madcap Coffee roasters), and adjusting our use of the condensed milk to compensate for the sweeter, much less bitter coffee used.</p>
+
+<p style="text-align:justify">The grind is a standard drip grind, though you should experiment depending on the phin you use - some can handle a more fine grind, some require a coarser grind.</p>
+
+<p style="text-align:justify"><strong>The Dose of Coffee:</strong>&nbsp;We&#39;re making a concentrated coffee beverage, so the dose is more than the standard 7/8g per 100ml (g) of water. For Vietnamese iced coffee in a phin brewer, we&#39;re starting with a ratio of 12g per 100ml (g) of water. In our 120ml brewer, we&#39;re using 14 grams of coffee. Of course, you should adjust based on taste for your purposes.</p>
+
+<p style="text-align:justify"><strong>The Condensed Milk:</strong>&nbsp;Condensed milk is super sweet, super thick, and can store on your cupboard shelf for eons. We tried doing a specialty coffee with the often-recommended amounts of condensed milk (about 1cm in the bottom of your cup) and it was just way-overboard sweet. There&#39;s also something else to consider: do you want your Vietnamese iced coffee to be a dessert (like it is regarded in Vietnam)? Or do you want a nice, balanced beverage for enjoying cold?</p>
+
+<p style="text-align:justify">In our how-to, we&#39;re aiming for the latter. We want something balanced, but perhaps with a slight nod to a sweet summer drink. Definitely adjust your amount of condensed milk for your own style of enjoyment, but it must have condensed milk to be a &quot;Vietnamese iced coffee&quot;</p>
+
+<p style="text-align:justify">The Water and Ice: as always, used the best quality water you can, and the same goes for the ice - make it from filtered water, and only use fresh ice. It can influence the cup taste.</p>
+
+<p style="text-align:justify">Vietnamese iced coffee is brewed with hot water; most online recipes say 190-195F, but these instructions are for super dark roasted robusta. If you&#39;re using specialty coffee, you want a starting water temperature of 200-205F.</p>
+
+<p style="text-align:justify"><strong>Steep and Brewing Times</strong><br />
+The target brew time for Vietnamese Iced coffee is similar to a press pot brew: around 4 minutes. This counts from the time you first add water to the phin brewer, to when the last drops fall out of the bottom. If your brewing time is much longer than that, consider either reducing your amount of coffee used, or adjusting the grind coarser, or a combination of the two. If your brewing time is shorter than four minutes, do the opposite adjustments: grind finer, use more coffee, or a combination of the two.</p>
+
+<p style="text-align:justify"><strong>How to Brew Vietnamese Iced Coffee</strong></p>
+
+<p>&nbsp;</p>
+
+<table class="mceItemTable" style="border-spacing:1px; border:1px dashed rgb(187, 187, 187); cursor:default; font-family:verdana,helvetica,sans-serif">
+	<tbody>
+		<tr>
+			<td><img alt="vietnameseiced-2" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-2.jpg" style="border:0px" /></td>
+			<td><img alt="vietnameseiced-3" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-3.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-4" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-4.jpg" style="border:0px" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;<img alt="vietnameseiced-5" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-5.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-6" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-6.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-9" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-9.jpg" style="border:0px" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;<img alt="vietnameseiced-10" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-10.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-11" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-11.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-12" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-12.jpg" style="border:0px" /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;<img alt="vietnameseiced-13" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-13.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-14" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-14.jpg" style="border:0px" /></td>
+			<td>&nbsp;<img alt="vietnameseiced-16" src="images/vs/blog/Brewing%20Coffee/vietnameseiced-16.jpg" style="border:0px" /></td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align:right">Source:&nbsp;<a href="http://coffeegeek.com/" style="color: rgb(123, 122, 122); outline: rgb(0, 0, 0) none; transition: 0.3s linear; -webkit-transition: 0.3s linear;">http://coffeegeek.com</a></p>
+";s:9:"thumbnail";s:43:"/uploads/images/maxresdefault11-220x150.jpg";s:7:"created";s:10:"1421420127";s:8:"modified";s:10:"1441298613";s:6:"status";s:1:"1";}s:8:"Category";a:3:{s:2:"id";s:2:"11";s:4:"slug";s:4:"blog";s:4:"name";s:4:"Blog";}}}

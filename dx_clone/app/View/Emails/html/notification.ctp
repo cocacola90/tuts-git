@@ -1,0 +1,1 @@
+﻿<p>Bạn có 1 đơn hàng mới. Hãy click vào <a href="http://dx.nguyenpham.info/admin/orders">đây</a> để xem chi tiết.</p>
